@@ -1,0 +1,129 @@
+element.style {
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+[data-aos][data-aos][data-aos-duration="2000"], body[data-aos-duration="2000"] [data-aos] {
+    transition-duration: 2s;
+}
+[data-aos][data-aos][data-aos-easing=ease-in-out-sine], body[data-aos-easing=ease-in-out-sine] [data-aos] {
+    transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+}
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .4s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+[data-aos=fade-up] {
+    transform: translate3d(0, 100px, 0);
+}
+.border-radius {
+    border-radius: 30px;
+}
+.border-radius {
+    border-radius: 30px;
+}
+.wrappers {
+    width: 800px;
+    height: 200px;
+    display: table;
+    border: 5px solid #6a0c08;
+    margin: 22px auto;
+    padding: 40px;
+    position: relative;
+}
+@media (max-width: 768px)
+.wrappers {
+    width: 100% !important;
+    padding: 40px !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: DroidKufiLight;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+injected stylesheet
+:host, :root {
+    --rem: 16;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.wrappers:before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    box-shadow: 0px -10px 0 #000;
+}
+.wrappers:after, .wrappers:before {
+    content: "";
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 50px;
+    color: #1c87c9;
+    background: #000;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrappers:after {
+    content: "";
+    top: 0;
+    right: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 10px 0 #000;
+}
+.wrappers:after, .wrappers:before {
+    content: "";
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 50px;
+    color: #1c87c9;
+    background: #000;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    background: #FFF;
+}
+::-webkit-scrollbar-thumb {
+    background: #BBB;
+    border: solid 2px #FFF;
+}
