@@ -155,13 +155,41 @@ body.section-show .close-btn{
 	margin-left:-20px;
 	margin-top:-1.5px;
 } */
-.mob{
+
+#player {
+	width: 800px; /* Adjust the width as per your preference */
+	height: 450px; /* Adjust the height as per your preference */
+  }
+.mob {
 	color: red;
+	align-items: center;
 }
+
+.mob-1
+{
+	color: white;
+}
+
 .sol{
 	color: red;
  }
 
+ .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+	flex: 50%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
 
 .close-btn > span:before{
 	content: ' ';
