@@ -156,6 +156,12 @@ body.section-show .close-btn{
 	margin-top:-1.5px;
 } */
 
+
+.topic-break {
+	margin: 50px 0; /* Add vertical space before and after the div */
+	border-bottom: 2px solid #ccc; /* Add a horizontal line */
+}
+
 #player {
 	width: 800px; /* Adjust the width as per your preference */
 	height: 450px; /* Adjust the height as per your preference */
